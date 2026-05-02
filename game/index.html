@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Memory Game</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<canvas id="particles"></canvas>
+<audio id="flipSound" src="https://assets.mixkit.co/sfx/preview/mixkit-click-melodic-tone-1129.mp3"></audio>
+
+<div class="info">
+  <span>Flips: <span id="flips">0</span></span>
+  <span>Time: <span id="time">0</span></span>
+</div>
+
+<div id="board" class="board"></div>
+
+<div id="overlay" class="overlay">
+  <h1>🎉 You Win!</h1>
+  <button onclick="startGame()">Restart</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
